@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
-    public float runSpeed=5;
-    public float jumpSpeed=3;
-    public float doublejumpSpeed=5;
+    public float runSpeed=4;
+    public float jumpSpeed=5;
+    public float doublejumpSpeed=3;
     private Rigidbody2D myRigidbody;
     private BoxCollider2D myFeet;
     private bool isGround;
